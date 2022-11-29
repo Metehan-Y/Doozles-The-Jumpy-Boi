@@ -17,9 +17,10 @@ https://gwyndo.itch.io/doozles-the-jumpy-boi
 # OYUNDA KENDİ GELİŞTİRDİĞİM YERLER VE KODLADIĞIM SCRİPTLER
 
 
-Oyunun Menusünü Canvas kullanarak oluşturdum ve geliştirdim. Oyunda bulunan Controller , Destroy ve Bounce Scriptlerini yazarak gelistirdim. Controller.cs scripti Doozles karakterinin hareket girdilerini içermektedir. Hareket esnasında aldığı girdiye göre sağa veya sola dönmesini içermektedir. Bunun yanı sıra Doozles karakter platformlar üstünde atlar iken çıkabildiği maksimum yükselik baz alınarak puan kazanmaktadır. 
+Oyunun Menusünü Canvas kullanarak oluşturdum ve geliştirdim yer yer ekip arkadaşımdan yardım aldım. Oyunda bulunan Controller scriptini ekip arkadaşım ile karşılıklı ilerleme şekilde bitirdim, Destroy ve Bounce Scriptlerini yazarak gelistirdim. Controller.cs scripti Doozles karakterinin hareket girdilerini içermektedir. Hareket esnasında aldığı girdiye göre sağa veya sola dönmesini içermektedir. Bunun yanı sıra Doozles karakter platformlar üstünde atlar iken çıkabildiği maksimum yükselik baz alınarak puan kazanmaktadır. 
 Destroy.cs scipti Doozles karakteri ile bağdaşık olan bir GameObject ile alakalı script içermektedir. Bu GameObject dokunduğu her bir Platform ögesi için oyunun ilerleyen yüksekliğinde random olarak bir başka platform oluşturmaktadır. Bu sayede gereğinden fazla sayıda platform oluşturmamıza gerek kalmadan bir recursive fonksiyon açmış olduk.
 Bounce.cs scripti Doozles karakterinin etkileşime girdiği Platformlar üzerinde belirli bir kuvvet ile zıplamasını sağlamaktadır.
 Oluşturduğum Scripler ile oyun ögelerini birbirlerine bağdaştırmış ve uyumlu bir şekilde herhangi bir sorun çıkarmadan çalışmasını sağladım.
 
 # OYUNDA EKİP ARKADAŞIMIN GELİŞTİRDİĞİ YERLER VE KODLADIĞI SCRİPTLER
+Ekip arkadaşım ilk olarak Unity'de yapacağımız oyunun tasarımında büyük katkı sağladı. oyunda ButtonManager Scriptini yazdı. Ana karakter ve platform gibi ögeleri oluşturdu. Platformları tekrar oluşturan Destroy.cs scriptinde bana yardımcı oldu. Platformların yerleştirmesini yaparak birbirleri ile olan etkileşimini minimuma indirmeyi amaçladı. Geliştirdiği ButtonManager.cs scripti ile Resume, Play tuşlarının ne yapması gerektiğini düzenledi. Menü oluşturmada bana yardımcı oldu. 
