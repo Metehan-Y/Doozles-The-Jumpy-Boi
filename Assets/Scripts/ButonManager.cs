@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class ButonManager : MonoBehaviour
 {
 
-    public GameObject pauseMenuUI;
+    public GameObject Menu;
     public static bool GamePaused = false;
 
     void Update()
@@ -25,14 +26,14 @@ public class ButonManager : MonoBehaviour
 
     public void Resume()
     {
-        pauseMenuUI.SetActive(false);
+        Menu.SetActive(false);
         Time.timeScale = 1f;
         GamePaused = false;
     }
 
     void Pause()
     {
-        pauseMenuUI.SetActive(true);
+        Menu.SetActive(true);
         Time.timeScale = 0f;
         GamePaused = true;
     }
@@ -40,7 +41,7 @@ public class ButonManager : MonoBehaviour
     public void Restart()
     {
 
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         
     }
 }

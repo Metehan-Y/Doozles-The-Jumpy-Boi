@@ -873,7 +873,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 711246c5a1139e44b8fd9aefac1c5b0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pauseMenuUI: {fileID: 815212402}
+  Menu: {fileID: 815212402}
 --- !u!1 &636306686
 GameObject:
   m_ObjectHideFlags: 0
@@ -2070,8 +2070,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46e7fc25b9412b74e848d25cfbd510fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 912492322}
-  platformPrefab: {fileID: 7030129390027339257, guid: dc0e66d7d61191946869b5cb91b23da3, type: 3}
+  Player: {fileID: 912492322}
+  Prefab: {fileID: 7030129390027339257, guid: dc0e66d7d61191946869b5cb91b23da3, type: 3}
 --- !u!61 &1564101191
 BoxCollider2D:
   m_ObjectHideFlags: 0
