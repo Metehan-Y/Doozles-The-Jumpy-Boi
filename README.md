@@ -7,8 +7,8 @@ Play tuşu oyunumuzu başa sararak Score durumunu sıfırlamaktadır. Play buton
 Resume tuşu oyunumuza kaldığımız yerden aynı Score ile devam etmemizi sağlamaktadır.Menu içerisinde ister ESC tuşuna basarak istersenizde Resume tuşuna basarak kaldığınız yerden devam edebilirsiniz.
 Oyun içerisinde anlık oyunu durdurmanız gerekmesi durumunda "Escape" tuşuna basarak oyununuzu Menu'ye geçirebilir ve dondurabilirsiniz.
 
-# OYUNUN GÖRSELLERİ
-
+# OYUNUN GÖRSELLERİ VE OYUN LINKI
+https://gwyndo.itch.io/doozles-the-jumpy-boi
 
 
 ![image](https://user-images.githubusercontent.com/74237991/204635127-96a21771-c149-4c7b-a3ee-21981aa76f45.png)
